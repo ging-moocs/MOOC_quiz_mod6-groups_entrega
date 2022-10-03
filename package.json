@@ -5,11 +5,12 @@
     "version": "0.1.7",
     "info": {
         "githubURL": "ging-moocs/MOOC_quiz_mod2-express_generator_entrega",
-        "serverUrl": "https://autocorector.dit.upm.es/",
-        "courseId": "4",
-        "assignmentId": "8"
+        "serverUrl": "https://moocbot.dit.upm.es/",
+        "courseId": "1263",
+        "assignmentId": "559"
     },
     "dependencies": {
+        "autocorector": "^3.1.3",
         "nodegit": "^0.26.5"
     }
 }

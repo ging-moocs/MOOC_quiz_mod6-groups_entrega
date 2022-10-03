@@ -2,7 +2,7 @@
 /* eslint-disable no-undef*/
 // IMPORTS
 const path = require("path");
-const Utils = require("./testutils");
+const Utils = require("../utils/testutils");
 const spawn = require("child_process").spawn;
 const fs = require("fs");
 
