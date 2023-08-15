@@ -18,7 +18,7 @@ const TEST_PORT =  typeof process.env.TEST_PORT !== "undefined"?parseInt(process
 
 const FILTER = new RegExp(process.env.TESTFILTER, "i");
 
-const path_assignment = path.resolve(path.join(__dirname, "../", "quiz_2020"));
+const path_assignment = path.resolve(path.join(__dirname, "../../", "quiz_2020"));
 const URL = `file://${path_assignment.replace("%", "%25")}`;
 const browser = new Browser({"waitDuration": WAIT, "silent": true, "runScripts": false });
 
@@ -276,7 +276,7 @@ Si preguntas en el foro, asegúrate de incluir esa información para que podamos
 
                 }
 
-                browser.site = `http://localhost:${TEST_PORT}/`;
+                browser.site = `http://127.0.0.1:${TEST_PORT}/`;
                 await browser.visit("/");
                 browser.assert.status(200);
 
