@@ -7,8 +7,6 @@ const spawn = require("child_process").spawn;
 const fs = require("fs");
 
 const process = require("process");
-var Git = require("nodegit");
-
 
 const DEBUG =  typeof process.env.DEBUG !== "undefined";
 const LOG_SERVER =  typeof process.env.LOG_SERVER !== "undefined";
@@ -129,6 +127,7 @@ Si preguntas en el foro, asegúrate de incluir esa información para que podamos
                fileexists.should.be.equal(true);
            });
 
+        /*Removed to remove nodegit as dependence
         it("Comprobando que existe la rama groups",
            0,
            async function () {
@@ -137,6 +136,7 @@ Si preguntas en el foro, asegúrate de incluir esa información para que podamos
                this.msg_err = "No se encuentra la rama groups";
                await repo.getBranchCommit("groups");
            });
+           */
 
         it(`Comprobar que la migración y el seeder existen`,
            -1,
