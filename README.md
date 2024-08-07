@@ -1,6 +1,4 @@
-
 <img  align="left" width="150" style="float: left;" src="https://www.upm.es/sfs/Rectorado/Gabinete%20del%20Rector/Logos/UPM/CEI/LOGOTIPO%20leyenda%20color%20JPG%20p.png">
-<img  align="right" width="150" style="float: right;" src="https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg">
 
 <br/><br/><br/>
 
@@ -776,44 +774,30 @@ $ git add seeders/??????????????-FillGroupsTable.js
 $ git commit
 ```
 
-## Prueba de la práctica 
+## Prueba de la práctica
 
-Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados. 
+Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados.
 
-Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/moocauto) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
+Existe [una presentación](https://docs.google.com/presentation/d/e/2PACX-1vSwJ2qCf2Pn0aZ7nzHRPqfJIws2HTUzmChbziwmZQe0WWU1_AUIy_U2DmAVQr0l9A/pub?start=false&loop=false&delayms=60000&slide=id.p1) al principio del curso sobre cómo trabajar con el autocorector y poder corregir las prácticas con facilidad. Consulta esa presentación si tienes alguna duda.
+Para instalar y hacer uso de la herramienta de autocorrección en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
 
 ```
-$ npm install -g moocauto     ## Instala el programa de test
-$ moocauto                    ## Pasa los tests al fichero a entregar
-............................  ## en el directorio de trabajo
-... (resultado de los tests)
-```
-También se puede instalar como paquete local, en el caso de que no se dispongas de permisos en el ordenador desde el que estás trabajando:
-```
-$ npm install moocauto         ## Instala el programa de test
-$ npx moocauto                 ## Pasa los tests al fichero a entregar
-............................   ## en el directorio de trabajo
+$ npm install     ## Instala el programa de test
+$ npx autocorector                    ## Pasa los tests al fichero a entregar
+............................      ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 
-Se puede pasar la herramienta de autocorrección tantas veces como se desee.
+Se puede pasar la herramienta de autoorrección tantas veces como se desee sin ninguna repercusión en la calificación.
 
+## Instrucciones para la Entrega y Evaluación.
 
-Se puede pasar la herramienta de autocorrección tantas veces como se desee.
+Una vez satisfecho con su calificación, el alumno puede subir su entrega a MiriadaX con el siguiente comando:
+```
+$ npx autocorector --upload
+```
 
-## Entrega de la práctica
-
-El alumno debe subir un fichero comprimido ZIP incluyendo todos los ficheros de la práctica excepto el directorio `node_modules` (si existe).
-
-## Evaluación de la práctica
-
-La evaluación de la práctica se realizará mediante revisión por pares (P2P). Cada alumno tendrá que revisar la práctica de 3 de sus compañeros y otros 3 revisarán la suya. Se puede utilizar la herramienta de autocorrección (moocauto) como ayuda para revisar la práctica de los compañeros.
-
-El objetivo de este curso es sacar el máximo provecho al trabajo que están dedicando, por lo que les recomendamos que utilicen la evaluación para ayudar a sus compañeros enviando comentarios sobre la corrección del código, su claridad, legibilidad, estructuración y documentación. 
-
-Dado que es un curso para principiantes, ante la duda les pedimos que sean benevolentes con sus compañeros, porque muchos participantes están empezando y los primeros pasos siempre son difíciles.
-
-**OJO! Una vez enviada la evaluación, está no se puede cambiar.** Piensen bien su evaluación antes de enviarla.
+La herramienta de autocorrección preguntará por el correo del alumno y el token de MiriadaX. En [este enlace](https://docs.google.com/presentation/d/e/2PACX-1vRYA9npW0Xg_c6_SWg2jAU7L2ti83-GY1VYKTzM1U5AgsW-0BC3xbwi__gsrsZ50Md0ja2HyadNzEPn/pub?start=false&loop=false&delayms=5000) se proveen instrucciones para encontrar dicho token.
 
 **RÚBRICA:** Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
 
