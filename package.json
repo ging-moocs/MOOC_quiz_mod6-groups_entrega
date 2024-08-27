@@ -1,10 +1,10 @@
 {
-    "name": "MOOC_quiz_mod2-express_generator_entrega",
+    "name": "MOOC_quiz_mod6-groups_entrega",
     "author": "ging-moocs",
     "license": "GNU",
     "version": "0.1.7",
     "info": {
-        "githubURL": "ging-moocs/MOOC_quiz_mod2-express_generator_entrega",
+        "githubURL": "ging-moocs/MOOC_quiz_mod6-groups_entrega",
         "serverUrl": "https://moocbot.dit.upm.es/",
         "courseId": "1602",
         "assignmentId": "994"
